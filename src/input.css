@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* components.css */
+
+@import "./components/table.css";
+
+@import "./components/button.css";
+
+/* Test Photo Result */
+@import "./components/test-photo.css";

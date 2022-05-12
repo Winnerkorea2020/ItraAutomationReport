@@ -1,0 +1,157 @@
+.startmeeting__title-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* <!-- Startmeeting Tap Menu --> */
+
+.startmeeting__content {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: var(--box-shadowing);
+  padding: 0.85rem;
+  border-radius: var(--border-radius);
+}
+
+.statmeeting-tap {
+  margin-top: 1.2rem;
+  text-align: end;
+}
+
+.startmeeting__tap-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.25rem;
+  height: 1.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.startmeeting__tap-button:hover {
+  background-color: var(--second-color);
+  color: #fff;
+}
+
+.startmeeting__tap-button-activity {
+  background-color: var(--lgred-button-color);
+  color: #fff;
+  box-shadow: 4px 4px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Basic Information Contents */
+
+.startmeeting__card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 0.85rem;
+}
+.startmeeting__top {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.startmeeting__card-title {
+}
+
+.starmeeting__upload-button {
+  height: 2.25rem;
+  background-color: var(--title-color);
+  font-size: var(--small-font-size);
+  border-radius: 5px;
+  padding: 0.85rem;
+}
+
+.startmeeting__card-contents {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.startmeeting__card-item-title {
+  width: 450px;
+}
+
+.startmeeting__card-content {
+  width: 100%;
+}
+.startmeeting__card-input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: var(--border-radius);
+  line-height: 1.1;
+  height: 1.85rem;
+  font-size: var(--normal-font-size);
+  padding-left: 0.85rem;
+}
+
+.startmeeting__card-input:focus {
+  background-color: var(--second-color-light);
+}
+
+.startmeeting__card-input-file {
+  margin: 0.35rem 0;
+}
+
+.startmeeting__content-title {
+  text-align: end;
+  padding-bottom: 0.85rem;
+  font-size: 1.25rem;
+}
+
+/* Startmeeting Contents Table Setting */
+.startmeeting-contents__no {
+  width: 5%;
+}
+
+/* HW SW Version */
+
+.startmeeting__test-version,
+.startmeeting__test-contents {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tester Contents Setting */
+.startmeeting__test-contents-go {
+  width: 5%;
+}
+
+/* Tester Contents Device Setting */
+.total_device-number {
+  width: 10%;
+}
+
+.startmeeting__contents-device-total-number,
+.startmeeting__contents-device-total-numbering {
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.startmeeting__contents-device-total-number:focus,
+.startmeeting__contents-device-total-numbering:focus {
+  background-color: var(--second-color-light);
+}
+
+/* Test Numbering */
+.total_device-numbering {
+  width: 5%;
+  font-size: 8pt;
+}
+
+.test-device__sum {
+  width: 5%;
+}

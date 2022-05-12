@@ -1,0 +1,70 @@
+/* ============ CONTENTS Table Page Title  ============  */
+
+/* Reset Table */
+
+/* ============== Table Width  ============== */
+
+.no {
+  width: 1cm;
+}
+.testname {
+  width: 4.5cm;
+}
+.testdevice {
+  width: 2.5cm;
+}
+.required {
+  width: 3.5cm;
+}
+.result {
+  width: 2cm;
+}
+.judge {
+  width: 2cm;
+}
+
+.remark {
+  width: 3.5cm;
+}
+
+/* =============== Test Contents Table ================== */
+.total_test_contents {
+  width: 100%;
+  border: none;
+}
+
+.total_test_contents thead tr th {
+  height: 0.6cm;
+  vertical-align: middle;
+  align-items: center;
+  border: 1pt solid rgba(0, 0, 0, 0.5);
+  border-top: none;
+  background-color: rgb(254, 254, 254);
+  font-size: 9.5pt;
+  font-family: "HKMCFontL";
+}
+
+.total_test_contents tbody tr th,
+.total_test_contents tbody tr td {
+  font-size: 9pt;
+  height: 0.8cm;
+  font-family: "HKMCFontL";
+  border: 1pt solid rgba(0, 0, 0, 0.5);
+  border-top: none;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.total_test_contents tbody tr td:nth-child(3),
+.total_test_contents tbody tr td:nth-child(4) {
+  font-size: 6.5pt;
+}
+
+.total_test_contents {
+  height: 23.18cm;
+}
+/* =========== 목차 ==========*/
+
+/* ========== 결재자 정보 ========== */
+
+/* ========== Main Bottom =========== */

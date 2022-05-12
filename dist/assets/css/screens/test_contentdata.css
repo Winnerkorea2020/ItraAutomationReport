@@ -1,0 +1,41 @@
+/* TEST Content Table CSS */
+
+.test_content-data-table {
+  width: 100%;
+  font-size: 0.658rem;
+}
+
+.test_content-data-table tbody th {
+  height: 2.13rem;
+}
+
+.test__proceed-photo,
+.test__proceed-result {
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: var(--box-shadowing);
+  color: #ffff;
+  width: max-content;
+  padding: 0 1.1rem;
+}
+
+.test__proceed-result {
+  background-color: var(--lgred-button-color);
+}
+
+.test__proceed-photo {
+  background-color: var(--lg-initial-photo__button);
+}
+
+.test__proceed-photo:hover,
+.test__proceed-result:hover {
+  box-shadow: none;
+}
+
+.test-device-number__input {
+  width: 20px;
+  text-align: center;
+  height: max-content;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}

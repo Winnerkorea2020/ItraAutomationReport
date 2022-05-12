@@ -1,0 +1,104 @@
+/* ==================== User Profile ==================== */
+.profile__card-user {
+  display: flex;
+  position: relative;
+}
+
+.profile__card-user-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-right: 2.28rem;
+}
+
+.profile__card-user-edit {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.2rem 0 0.12rem 0;
+  background-color: #ffff;
+  font-weight: var(--font-semi-bold);
+  color: var(--text-color);
+  top: 51px;
+  left: 55px;
+}
+
+/* ==================== Profile information ==================== */
+.profile__card {
+  display: flex;
+  justify-content: start;
+}
+.profile__card-title {
+  width: 450px;
+}
+
+.profile__card-contents {
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+}
+.profile__card-content {
+  margin-bottom: 1.2rem;
+}
+.profile__card-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.profile__card-input {
+  width: 100%;
+  height: 30px;
+  border-radius: 50px;
+
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.profile__card-inputbox {
+  margin-top: 2.5rem;
+}
+
+.profile__card-inputbox-items {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.profile__card-inputbox-items-title {
+  width: 420px;
+  margin-right: 1.5rem;
+}
+
+.profile__card-input {
+  padding: 0.85rem 1.5rem;
+}
+
+.profile__account-selection {
+  font-size: var(--normal-font-size);
+  padding: 0.6rem 0.5rem;
+  width: 100%;
+  line-height: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.25rem;
+}
+
+.profile__account-option {
+  height: 1.5rem;
+}
+
+.profile__button {
+  margin-top: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .profile__card {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>ITRA - Test Contents | Title Results</title>
+  </head>
+
+  <body class="pt-16 pb-12 bg-gray-100">
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header__container">
+        <img src="assets/img/avata/business_woman.jpg" alt="" class="header__img" />
+
+        <a href="#" class="header__logo">LG Electronics : In-vehicle Infortainment</a>
+
+        <div class="header__toggle">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Side Nav Bar -->
+    <div class="nav" id="navbar">
+      <nav class="nav__container">
+        <div>
+          <a href="#" class="nav__link nav__logo">
+            <i class="bx bxs-analyse nav__icon"></i>
+            <span class="nav__logo-name">ITRA</span>
+          </a>
+
+          <!-- Side Navbar -->
+          <div class="nav__list">
+            <div class="nav__items">
+              <!-- HOME -->
+              <h3 class="nav__subtitle">HOME</h3>
+
+              <a href="home.html" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+
+              <!-- HOME -->
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bxs-book-add nav__icon"></i>
+                  <span class="nav__name">Start Meeting</span>
+
+                  <div class="nav__dropdown-collapse">
+                    <div class="nav__dropdown-content">
+                      <a href="startmeeting_1_basic-avn.html" class="nav__dropdown-item">AVN</a>
+                      <a href="startmeeting_1_basic-cluster.html" class="nav__dropdown-item">Cluster</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Profile -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-folder-open nav__icon"></i>
+                  <span class="nav__name">Project</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="project_running.html" class="nav__dropdown-item">Running</a>
+                    <a href="project_complete.html" class="nav__dropdown-item">Complete</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Templates -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-category nav__icon"></i>
+                  <span class="nav__name">Templates</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="template_report.html" class="nav__dropdown-item">Report</a>
+                    <a href="template_avn.html" class="nav__dropdown-item">AVN</a>
+                    <a href="template_cluster.html" class="nav__dropdown-item">Cluster</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="notice.html" class="nav__link">
+                <i class="bx bx-bell nav__icon"></i>
+                <span class="nav__name">Notification</span>
+              </a>
+            </div>
+
+            <div class="nav__items">
+              <h3 class="nav__subtitle">Menu</h3>
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-link-external nav__icon"></i>
+                  <span class="nav__name">Links</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="http://collab.lge.com/main/" class="nav__dropdown-item" target="_blank">Collab</a>
+                    <a href="http://share.lge.com/sites/vc/vssmartqahw1/DocLib/Forms/AllItems.aspx" target="_blank" class="nav__dropdown-item"
+                      >Share Point</a
+                    >
+                    <a href="http://dqms.lge.com:5909/CoMain.jsp" target="_blank" class="nav__dropdown-item">DQMS</a>
+                    <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="nav__dropdown-item">GPDM</a>
+                    <a href="http://dgms.lge.com:5910/Main.jsp" target="_blank" class="nav__dropdown-item">DGMS</a>
+                    <a href="http://newep.lge.com/" target="_blank" class="nav__dropdown-item">EP-Mail</a>
+                    <a href="http://vclms.lge.com/Account/Login?ReturnUrl=%2f" target="_blank" class="nav__dropdown-item">LMS</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="membership.html" class="nav__link">
+                <i class="bx bxs-user-account nav__icon"></i>
+                <span class="nav__name">Membership</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="nav__link nav__logout">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log Out</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Contents -->
+    <main>
+      <section class="grid grid-cols-1 md:grid-cols-7 gap-5 container mx-auto mt-4">
+        <div class="link__content">
+          <a href="http://collab.lge.com/main/" target="_blank" class="link-site">
+            <i class="bx bxs-flask link-icon"></i>
+
+            <h3 class="link__title">Collab</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://share.lge.com/sites/vc/vssmartqahw1/DocLib/Forms/AllItems.aspx" target="_blank" class="link-site">
+            <i class="bx bxs-share-alt link-icon"></i>
+
+            <h3 class="link__title">Share Point</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://dqms.lge.com:5909/CoMain.jsp" target="_blank" class="link-site">
+            <i class="bx bxs-check-shield link-icon"></i>
+
+            <h3 class="link__title">DQMS</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="link-site">
+            <i class="bx bxs-planet link-icon"></i>
+
+            <h3 class="link__title">GPDM</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="link-site">
+            <i class="bx bxs-file-doc link-icon"></i>
+
+            <h3 class="link__title">DGMS</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://newep.lge.com/" target="_blank" class="link-site">
+            <i class="bx bx-mail-send link-icon"></i>
+
+            <h3 class="link__title">EP-Mail</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://vclms.lge.com/Account/Login?ReturnUrl=%2f" target="_blank" class="link-site">
+            <i class="bx bxs-car-mechanic link-icon"></i>
+
+            <h3 class="link__title">LMS</h3>
+          </a>
+        </div>
+      </section>
+
+      <!-- Tabale Notice -->
+
+      <section class="container mx-auto mt-4">
+        <div class="templates text-black">
+          <h3 class="table-title">Project - AVN</h3>
+          <h4 class="table-subtitle">Running</h4>
+        </div>
+        <div class="register__button-area">
+          <div class="flex justify-end py-2 gap-2 items-center">
+            <a href="#" class="inline-flex px-2 w-24 py-2 btn btn-dark">Upload</a>
+            <a href="project_running.html" class="inline-flex px-2 w-24 py-2 btn btn-red">SAVE</a>
+            <a href="#" class="inline-flex px-2 w-24 py-2 btn btn-default">Cancel</a>
+          </div>
+        </div>
+        <div class="p-16 bg-white mt-5 text-black">
+          <div class="">
+            <span class="px-0.5">고급형5세대 </span>
+            <span class="px-0.5">HI</span>
+            <span class="px-0.5">4M</span>
+            <span class="px-0.5">IDT 4M 및 반도체이슈 </span>
+          </div>
+          <div class="flex justify-end items-center gap-5 py-2">
+            <div class="flex items-center gap-5">
+              <div>총 시료수:</div>
+              <div class="w-8 text-center">3</div>
+            </div>
+            <div class="">Page</div>
+            <div class="w-16 text-center">
+              <select name="" id="" class="border w-full pl-5">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <table class="table-small table-initial__photo">
+              <colgroup>
+                <col />
+              </colgroup>
+
+              <thead>
+                <tr>
+                  <th class="">NO</th>
+                  <th class="">품번</th>
+                  <th class="">향지</th>
+                  <th class="">모델명</th>
+                  <th class="">이미지</th>
+                  <th class="">NO</th>
+                  <th class="">품번</th>
+                  <th class="">향지</th>
+                  <th class="">모델명</th>
+                  <th class="">이미지</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="test__initial__photo-number" scope="1">#1</th>
+                  <td class="test__initial__photo-partnumber">96560-05350</td>
+                  <td class="test__initial__photo-location">호주</td>
+                  <td class="test__initial__photo-number">IWK1055SP2G</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="13">#13</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="2">#2</th>
+                  <td class="test__initial__photo-partnumber">96560-05350</td>
+                  <td class="test__initial__photo-location">호주</td>
+                  <td class="test__initial__photo-number">IWK1055SP2G</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="14">#14</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="3">#3</th>
+                  <td class="test__initial__photo-partnumber">96560-05350</td>
+                  <td class="test__initial__photo-location">호주</td>
+                  <td class="test__initial__photo-number">IWK1055SP2G</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="15">#15</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="4">#4</th>
+                  <td class="test__initial__photo-partnumber">96560-05350</td>
+                  <td class="test__initial__photo-location">호주</td>
+                  <td class="test__initial__photo-number">IWK1055SP2G</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="16">#16</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="5">#5</th>
+                  <td class="test__initial__photo-partnumber">96560-05350</td>
+                  <td class="test__initial__photo-location">호주</td>
+                  <td class="test__initial__photo-number">IWK1055SP2G</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="17">#17</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="6">#6</th>
+                  <td class="test__initial__photo-partnumber">96560-05350</td>
+                  <td class="test__initial__photo-location">호주</td>
+                  <td class="test__initial__photo-number">IWK1055SP2G</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="18">#18</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="7">#7</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="19">#19</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="8">#8</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="20">#20</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="9">#9</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="21">#21</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="10">#10</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="22">#22</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="11">#11</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="23">#23</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="test__initial__photo-number" scope="12">#12</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+
+                  <th class="test__initial__photo-number" scope="24">#24</th>
+                  <td class="test__initial__photo-partnumber">-</td>
+                  <td class="test__initial__photo-location">-</td>
+                  <td class="test__initial__photo-number">-</td>
+                  <td class="test__initial__photo-number">
+                    <div class="flex justify-center items-center flex-col">
+                      <input type="file" name="" id="" />
+                      <img src="#" alt="" />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Main Javascript -->
+    <script src="./assets/js/test-photo.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

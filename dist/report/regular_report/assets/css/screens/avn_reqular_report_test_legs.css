@@ -1,0 +1,143 @@
+.test__leg-contents {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "HKMCFontM";
+  border: none;
+}
+
+.test__leg-contents th,
+.test__leg-contents td {
+  vertical-align: middle;
+  height: 0.75cm;
+  font-size: 10pt;
+}
+
+.test__leg-contentsname {
+  width: 2.5cm;
+}
+.test__leg-contents td {
+  width: 4cm;
+}
+
+.test__leg-contents th {
+  border-right: 1pt solid black;
+  border-bottom: 1pt solid black;
+
+  background-color: rgb(204, 204, 204);
+}
+
+.test__leg-contents tr .test_period-start {
+  border-right: 1pt solid black;
+}
+
+.test-leg__carmodel,
+.test-leg__testconent,
+.test-leg__reportpublishnumber,
+.test-leg__testsetting,
+.test-leg__event,
+.test-leg__carmodel {
+  border-left: 1pt solid black;
+}
+.test_event-dv {
+  border-right: 1pt solid black;
+}
+
+.test-method {
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+  border: none;
+}
+
+.test-method th {
+  width: 1.2cm;
+  height: 1.3cm;
+  vertical-align: middle;
+  background-color: rgb(204, 204, 204);
+  border: 1pt solid black;
+  border-width: 0 1pt 1pt 0;
+}
+
+.test__results {
+  border: none;
+  width: 100%;
+  height: 10.5cm;
+}
+.test__results th {
+  border: 1pt solid black;
+  border-width: 0 1pt 1pt 0;
+  font-size: 10pt;
+  vertical-align: middle;
+  background-color: rgb(204, 204, 204);
+  width: 1.2cm;
+  font-family: "HKMCFontL";
+}
+
+/* ================= Test Sample Status  ================= */
+
+.test__sample-staus {
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.test__sample-staus td {
+  width: 3cm;
+  height: 0.6cm;
+  font-size: 12pt;
+  border-right: 1pt solid black;
+}
+
+.test__sample-staus td:last-child {
+  border-right: none;
+}
+
+/* ================= Test Sample Approve  ================= */
+
+.test__legs-approve {
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.test__legs-approve th {
+  background-color: rgb(204, 204, 204);
+}
+
+.test__legs-approve th,
+.test__legs-approve td {
+  font-size: 11pt;
+  vertical-align: middle;
+  border: 1pt solid black;
+  border-width: 0 1pt 1pt 0;
+}
+
+.test__legs-approve td {
+  height: 0.6cm;
+}
+
+.test__legs-approve td:last-child {
+  border-right: none;
+}
+
+/* ================ LEG Content Bottom ================ */
+
+.leg__bottom {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.leg__bottom-text {
+  font-size: 11pt;
+  font-family: "HKMCFontM";
+  text-align: center;
+}
+.bottom__date {
+  font-size: 12pt;
+}
+
+.bottom__text {
+  padding: 0.13cm 0.25cm;
+}

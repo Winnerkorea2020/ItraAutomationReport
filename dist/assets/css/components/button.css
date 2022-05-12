@@ -1,0 +1,65 @@
+.new-button {
+  padding: 0.5rem;
+  border: none;
+  color: var(--body-color);
+  border-radius: 5px;
+  font-size: var(--smaller-font-size);
+  font-weight: 600;
+  background-color: var(--title-color);
+}
+
+.file__upload-button {
+  width: 80px;
+  height: auto;
+  border-radius: 3px;
+  outline: none;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.registration-button__delete {
+  background-color: var(--container-color);
+}
+
+.registration-button__save {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: var(--lgred-button-color);
+  color: #fff;
+}
+
+.register__button-upload {
+  background-color: var(--title-color);
+  color: #ffff;
+}
+
+.register__button-save {
+  background-color: var(--lgred-button-color);
+  color: #ffff;
+}
+
+.registration-button__cancel {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: var(--lgred-button-color);
+  color: #fff;
+}
+
+.register__button-next {
+  background-color: var(--hkmcreport-button-color);
+  color: #fff;
+}
+
+.register__button-cancel {
+  background-color: var(--body-color);
+}
+
+.register__button-previous {
+  background-color: var(--delete-button-color);
+  color: #ffff;
+}
+
+.register__button-complete {
+  background-color: var(--lg-initial-photo__button);
+  color: #fff;
+}

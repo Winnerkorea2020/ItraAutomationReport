@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>ITRA - Teamplates | AVN</title>
+  </head>
+
+  <body class="pt-16 pb-12 bg-gray-100">
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header__container">
+        <img src="assets/img/avata/business_woman.jpg" alt="" class="header__img" />
+
+        <a href="#" class="header__logo">LG Electronics : In-vehicle Infortainment</a>
+
+        <div class="header__toggle">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Side Nav Bar -->
+    <div class="nav" id="navbar">
+      <nav class="nav__container">
+        <div>
+          <a href="#" class="nav__link nav__logo">
+            <i class="bx bxs-analyse nav__icon"></i>
+            <span class="nav__logo-name">ITRA</span>
+          </a>
+
+          <!-- Side Navbar -->
+          <div class="nav__list">
+            <div class="nav__items">
+              <!-- HOME -->
+              <h3 class="nav__subtitle">HOME</h3>
+
+              <a href="home.html" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+
+              <!-- HOME -->
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bxs-book-add nav__icon"></i>
+                  <span class="nav__name">Start Meeting</span>
+
+                  <div class="nav__dropdown-collapse">
+                    <div class="nav__dropdown-content">
+                      <a href="startmeeting_1_basic-avn.html" class="nav__dropdown-item">AVN</a>
+                      <a href="startmeeting_1_basic-cluster.html" class="nav__dropdown-item">Cluster</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Profile -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-folder-open nav__icon"></i>
+                  <span class="nav__name">Project</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="project_running.html" class="nav__dropdown-item">Running</a>
+                    <a href="project_complete.html" class="nav__dropdown-item">Complete</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Templates -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-category nav__icon"></i>
+                  <span class="nav__name">Templates</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="template_report.html" class="nav__dropdown-item">Report</a>
+                    <a href="template_avn.html" class="nav__dropdown-item">AVN</a>
+                    <a href="template_cluster.html" class="nav__dropdown-item">Cluster</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="notice.html" class="nav__link">
+                <i class="bx bx-bell nav__icon"></i>
+                <span class="nav__name">Notification</span>
+              </a>
+            </div>
+
+            <div class="nav__items">
+              <h3 class="nav__subtitle">Menu</h3>
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-link-external nav__icon"></i>
+                  <span class="nav__name">Links</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="http://collab.lge.com/main/" class="nav__dropdown-item" target="_blank">Collab</a>
+                    <a href="http://share.lge.com/sites/vc/vssmartqahw1/DocLib/Forms/AllItems.aspx" target="_blank" class="nav__dropdown-item"
+                      >Share Point</a
+                    >
+                    <a href="http://dqms.lge.com:5909/CoMain.jsp" target="_blank" class="nav__dropdown-item">DQMS</a>
+                    <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="nav__dropdown-item">GPDM</a>
+                    <a href="http://dgms.lge.com:5910/Main.jsp" target="_blank" class="nav__dropdown-item">DGMS</a>
+                    <a href="http://newep.lge.com/" target="_blank" class="nav__dropdown-item">EP-Mail</a>
+                    <a href="http://vclms.lge.com/Account/Login?ReturnUrl=%2f" target="_blank" class="nav__dropdown-item">LMS</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="membership.html" class="nav__link">
+                <i class="bx bxs-user-account nav__icon"></i>
+                <span class="nav__name">Membership</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="nav__link nav__logout">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log Out</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Contents -->
+    <main>
+      <section class="grid grid-cols-1 md:grid-cols-7 gap-5 container mx-auto mt-4">
+        <div class="link__content">
+          <a href="http://collab.lge.com/main/" target="_blank" class="link-site">
+            <i class="bx bxs-flask link-icon"></i>
+
+            <h3 class="link__title">Collab</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://share.lge.com/sites/vc/vssmartqahw1/DocLib/Forms/AllItems.aspx" target="_blank" class="link-site">
+            <i class="bx bxs-share-alt link-icon"></i>
+
+            <h3 class="link__title">Share Point</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://dqms.lge.com:5909/CoMain.jsp" target="_blank" class="link-site">
+            <i class="bx bxs-check-shield link-icon"></i>
+
+            <h3 class="link__title">DQMS</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="link-site">
+            <i class="bx bxs-planet link-icon"></i>
+
+            <h3 class="link__title">GPDM</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="link-site">
+            <i class="bx bxs-file-doc link-icon"></i>
+
+            <h3 class="link__title">DGMS</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://newep.lge.com/" target="_blank" class="link-site">
+            <i class="bx bx-mail-send link-icon"></i>
+
+            <h3 class="link__title">EP-Mail</h3>
+          </a>
+        </div>
+        <div class="link__content">
+          <a href="http://vclms.lge.com/Account/Login?ReturnUrl=%2f" target="_blank" class="link-site">
+            <i class="bx bxs-car-mechanic link-icon"></i>
+
+            <h3 class="link__title">LMS</h3>
+          </a>
+        </div>
+      </section>
+      <!-- Tabale Notice -->
+
+      <section class="container mx-auto mt-4">
+        <div class="templates text-black">
+          <h3 class="table-title">Templates</h3>
+          <h4 class="table-subtitle">Cluster</h4>
+        </div>
+        <table class="table-theme-6">
+          <thead>
+            <tr>
+              <th scope="col">NO</th>
+              <th scope="col">Title</th>
+              <th scope="col">Write</th>
+              <th scope="col">Date</th>
+              <th scope="col">Remark</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">공지</th>
+              <td>이번주주간메뉴</td>
+              <td>관리자</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">공지</th>
+              <td>이번주주간메뉴</td>
+              <td>관리자</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">공지</th>
+              <td>이번주주간메뉴</td>
+              <td>관리자</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">17</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">16</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">15</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">14</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">13</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">13</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>이번주주간메뉴</td>
+              <td>인천그집</td>
+              <td>08:00:12</td>
+              <td>Remak</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="bg-white pt-5 pb-12">
+          <ul class="flex justify-center items-center">
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <span><i class="bx bxs-chevrons-left"></i></span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">6</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">7</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">8</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">9</a>
+            </li>
+
+            <li class="page-item">
+              <a class="page-link" href="#">10</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true"><i class="bx bxs-chevrons-right"></i></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Notice -->
+      <!-- Check List -->
+    </main>
+
+    <!-- Main Javascript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

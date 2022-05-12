@@ -1,0 +1,165 @@
+/* ============ First Page Table Page  ============  */
+.first-page__table {
+  width: 100%;
+  font-size: 11pt;
+  text-align: center;
+  border-right: none;
+  border-left: none;
+}
+
+.colum-a {
+  height: 1cm;
+}
+
+.table__colume td {
+  border: 1pt solid black;
+  border-top: none;
+  border-right: none;
+}
+
+.table__colume td:first-child {
+  border-left: none;
+}
+
+.fp__table-name {
+  width: 2.6cm;
+  text-align: start;
+  padding: 0 0.25cm;
+  background-color: rgb(242, 242, 242);
+}
+.fp__table-content {
+  width: 6.4cm;
+}
+.fptable__hwver,
+.fptable__hwver-content,
+.fptable__swver,
+.fptable__swver-content {
+  height: 1.3cm;
+}
+
+.fptable__hwver-content {
+  font-size: 9pt;
+}
+
+.fptable__swver-content {
+  font-size: 9pt;
+}
+/* =========== 목차 ==========*/
+.first__page-contents {
+  height: 8cm;
+  border-bottom: 1pt solid black;
+}
+
+.main__content-title,
+.main__content-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__content-title {
+  padding-top: 0.5cm;
+  padding-bottom: 0.2cm;
+  width: 12cm;
+  font-size: 28pt;
+  font-family: "HKMCFontM";
+  text-align: center;
+  border-bottom: 2pt double rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.7cm;
+}
+
+.main__content-subtitle {
+  width: 9cm;
+  font-size: 16pt;
+  font-family: "HKMCFontM";
+  padding: 0.6cm 0;
+}
+/* ========== 결재자 정보 ========== */
+
+.fp__approve {
+  width: 100%;
+  text-align: center;
+  font-size: 11pt;
+  font-family: "HKMCFontM";
+  border-left: none;
+  border-right: none;
+}
+
+.team-name {
+  border-right: 1pt solid black;
+  background-color: rgb(242, 242, 242);
+  width: 2.5cm;
+}
+
+.fp__test-stamp-name {
+  height: 3cm;
+}
+
+.fp__team-name,
+.fp__design-team {
+  border-right: 1pt solid black;
+}
+.fp__test-team {
+  width: 2cm;
+  border-right: 1pt solid black;
+}
+
+.fp__approve-team {
+  width: 2.5cm;
+}
+
+/* ========== Main Bottom =========== */
+.main__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "HKMCFontM";
+}
+
+.main__bottom-text,
+.main__bottom-date,
+.bottom__lge {
+  padding-top: 0.5cm;
+}
+
+.main__bottom-text {
+  padding-top: 0.5cm;
+  font-size: 11pt;
+}
+
+.main__bottom-date {
+  font-size: 12pt;
+}
+.bottom__lge {
+  font-size: 11pt;
+  font-style: italic;
+}
+
+/* A4 Size */
+
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="landscape"] {
+  width: 42cm;
+  height: 29.7cm;
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="landscape"] {
+  width: 21cm;
+  height: 14.8cm;
+}
+@media print {
+  body,
+  page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}

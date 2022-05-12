@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+
+    <link rel="stylesheet" href="assets/css/base.css">
+
+    <title>ITRA - Modification | Dashboard </title>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="header__container">
+            <img src="#" alt="" class="header__img">
+
+            <a href="#" class="header__logo">LG Electronics : In-vehicle Infortainment</a>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Side Nav Bar -->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <i class='bx bxs-analyse nav__icon'></i>
+                    <span class="nav__logo-name">ITRA</span>
+                </a>
+
+                <!-- Side Navbar -->
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <!-- HOME -->
+                        <h3 class="nav__subtitle">HOME</h3>
+
+                        <a href="#" class="nav__link active">
+                            <i class='bx bx-home nav__icon'></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+
+                        <!-- HOME -->
+                        <a href="#" class="nav__link">
+                            <i class='bx bxs-book-add nav__icon'></i>
+                            <span class="nav__name">Start Meeting</span>
+                        </a>
+
+                        <!-- Profile -->
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-folder-open nav__icon'></i>
+                                <span class="nav__name">Project</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Running</a>
+                                    <a href="#" class="nav__dropdown-item">Complete</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Templates -->
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-category nav__icon'></i>
+                                <span class="nav__name">Templates</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Report</a>
+                                    <a href="#" class="nav__dropdown-item">AVN</a>
+                                    <a href="#" class="nav__dropdown-item">Cluster</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-bell nav__icon'></i>
+                            <span class="nav__name">Notification</span>
+                        </a>
+                    </div>
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Menu</h3>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>
+                                <span class="nav__name">Links</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Collab</a>
+                                    <a href="#" class="nav__dropdown-item">Share Point</a>
+                                    <a href="#" class="nav__dropdown-item">DQMS</a>
+                                    <a href="#" class="nav__dropdown-item">GPDM</a>
+                                    <a href="#" class="nav__dropdown-item">DGMS</a>
+                                    <a href="#" class="nav__dropdown-item">EP-Mail</a>
+                                    <a href="#" class="nav__dropdown-item">LMS</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Profile</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Password</a>
+                                    <a href="#" class="nav__dropdown-item">Mail</a>
+                                    <a href="#" class="nav__dropdown-item">Account</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <a href="#" class="nav__link">
+                            <i class='bx bxs-user-account nav__icon'></i>
+                            <span class="nav__name">Membership</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="nav__link nav__logout">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Contents -->
+    <main>
+
+
+        <div class="register__main section bd-container">
+            <h2>Modification</h2>
+            <div class="register__main-contents">
+                <label for="#">Choose a dashboard:</label>
+                <select class="register__main-selection" name="" id="">
+                    <option class="register__option" value="">--Please choose an option--</option>
+                    <option class="register__option" value="notice">Notice</option>
+                    <option class="register__option" value="temp-report">Templates-Report</option>
+                    <option class="register__option" value="temp-avn">Templates-AVN</option>
+                    <option class="register__option" value="teamp-cluster">Templates-Cluster</option>
+
+                </select>
+                <div class="register__main-subject register__subtitle">
+                    <h3>Subject</h2>
+                        <input class="register__main-subject-content register__text-box" type="text"
+                            placeholder="제목을 입력하십시오">
+                </div>
+
+                <div class="register__main-subject register__subtitle">
+                    <h3>Attachment</h2>
+                        <div class="register__file-attachment">
+                            <form action="">
+                                <input class="register__main-subject-content register__attachment" type="file">
+                            </form>
+                            <div class="register__file-attachment-button">
+                                <input type="submit" value="Upload"
+                                    class="file__upload-button registration-button registration-button__save">
+                                <input type="submit" value="Delete"
+                                    class="file__upload-button registration-button registration-button__delete">
+
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="registrer__main-textarea">
+                <div class="regiser__comments">
+                    <div class="textarea__title register__subtitle">
+                        <h3>Comment</h2>
+                            <textarea class="register__comments-box" name="text"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <div class="register__button-area">
+                <div class="register__button">
+                    <button class="register__button-save">Update</button>
+                    <button class="register__button-cancel">Cancel</button>
+                    <button class="register__button-delete">Delete</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Main Javascript -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

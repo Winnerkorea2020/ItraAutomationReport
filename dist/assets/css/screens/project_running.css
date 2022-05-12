@@ -1,0 +1,36 @@
+/* Project Running and Complete Button */
+.lg-report__button,
+.lg-initial-photo__button,
+.hkmc-report__button,
+.state-repot__button,
+.delete-report__button {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadowing);
+  font-weight: 600;
+  color: #ffff;
+  border-radius: 5px;
+}
+.modify__startmeeting {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.lg-report__button {
+  background-color: var(--lgreport-button-color);
+}
+.lg-initial-photo__button {
+  background-color: var(--lg-initial-photo__button);
+}
+
+.hkmc-report__button {
+  background-color: var(--hkmcreport-button-color);
+}
+
+.state-repot__button {
+  background-color: var(--statereport-button-color);
+}
+
+.delete-report__button {
+  background-color: var(--delete-button-color);
+}

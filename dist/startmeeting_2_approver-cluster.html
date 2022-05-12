@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>ITRA - Startmeeting | Step 2 Approver informaion</title>
+  </head>
+
+  <body class="pt-16 pb-12 bg-gray-100 text-black">
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header__container">
+        <img src="assets/img/avata/business_woman.jpg" alt="" class="header__img" />
+
+        <a href="#" class="header__logo">LG Electronics : In-vehicle Infortainment</a>
+
+        <div class="header__toggle">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Side Nav Bar -->
+    <div class="nav" id="navbar">
+      <nav class="nav__container">
+        <div>
+          <a href="#" class="nav__link nav__logo">
+            <i class="bx bxs-analyse nav__icon"></i>
+            <span class="nav__logo-name">ITRA</span>
+          </a>
+
+          <!-- Side Navbar -->
+          <div class="nav__list">
+            <div class="nav__items">
+              <!-- HOME -->
+              <h3 class="nav__subtitle">HOME</h3>
+
+              <a href="home.html" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+
+              <!-- HOME -->
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bxs-book-add nav__icon"></i>
+                  <span class="nav__name">Start Meeting</span>
+
+                  <div class="nav__dropdown-collapse">
+                    <div class="nav__dropdown-content">
+                      <a href="startmeeting_1_basic-avn.html" class="nav__dropdown-item">AVN</a>
+                      <a href="startmeeting_1_basic-cluster.html" class="nav__dropdown-item">Cluster</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Profile -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-folder-open nav__icon"></i>
+                  <span class="nav__name">Project</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="project_running.html" class="nav__dropdown-item">Running</a>
+                    <a href="project_complete.html" class="nav__dropdown-item">Complete</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Templates -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-category nav__icon"></i>
+                  <span class="nav__name">Templates</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="template_report.html" class="nav__dropdown-item">Report</a>
+                    <a href="template_avn.html" class="nav__dropdown-item">AVN</a>
+                    <a href="template_cluster.html" class="nav__dropdown-item">Cluster</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="notice.html" class="nav__link">
+                <i class="bx bx-bell nav__icon"></i>
+                <span class="nav__name">Notification</span>
+              </a>
+            </div>
+
+            <div class="nav__items">
+              <h3 class="nav__subtitle">Menu</h3>
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-link-external nav__icon"></i>
+                  <span class="nav__name">Links</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="http://collab.lge.com/main/" class="nav__dropdown-item" target="_blank">Collab</a>
+                    <a href="http://share.lge.com/sites/vc/vssmartqahw1/DocLib/Forms/AllItems.aspx" target="_blank" class="nav__dropdown-item"
+                      >Share Point</a
+                    >
+                    <a href="http://dqms.lge.com:5909/CoMain.jsp" target="_blank" class="nav__dropdown-item">DQMS</a>
+                    <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="nav__dropdown-item">GPDM</a>
+                    <a href="http://dgms.lge.com:5910/Main.jsp" target="_blank" class="nav__dropdown-item">DGMS</a>
+                    <a href="http://newep.lge.com/" target="_blank" class="nav__dropdown-item">EP-Mail</a>
+                    <a href="http://vclms.lge.com/Account/Login?ReturnUrl=%2f" target="_blank" class="nav__dropdown-item">LMS</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="membership.html" class="nav__link">
+                <i class="bx bxs-user-account nav__icon"></i>
+                <span class="nav__name">Membership</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="nav__link nav__logout">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log Out</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Contents -->
+    <main>
+      <section class="container mx-auto mt-4">
+        <!-- Startmeeting Tap Menu -->
+        <div class="startmeeting__title-area">
+          <h1 class="startmeeting-main__title">Startmeeting - Cluster</h1>
+          <h3 class="startmeeting-sub__title">Step 2 : Approver informaion</h3>
+        </div>
+
+        <div class="startmeeting__content statmeeting-tap flex justify-between items-center">
+          <div class="w-full flex items-center gap-1">
+            <input type="file" name="" id="" class="w-full border-2 basis-4/6 rounded-md" />
+            <div class="flex justify-center items-center gap-3">
+              <button class="btn btn-red py-1.5">Apply</button>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row justify-end startmeeting__tap-buttons text-xs">
+            <a href="startmeeting_1_basic-cluster.html" class="button startmeeting__tap-button">Basic</a>
+            <a href="startmeeting_2_approver-cluster.html" class="button startmeeting__tap-button startmeeting__tap-button-activity">Approve</a>
+            <a href="startmeeting_3_version-cluster.html" class="button startmeeting__tap-button">HW/SW Version</a>
+            <a href="startmeeting_4_test_contents-cluster.html" class="button startmeeting__tap-button">Test Contents</a>
+            <a href="startmeeting_5_test_devices-cluster.html" class="button startmeeting__tap-button">Test Devices</a>
+            <a href="startmeeting_6_test_numbering-cluster.html" class="button startmeeting__tap-button">Test Numbering</a>
+          </div>
+        </div>
+
+        <!-- Contents -->
+        <!-- Tester -->
+
+        <div class="startmeeting__content">
+          <h3 class="startmeeting__content-title">Tester & Validation Team</h3>
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">시험 조직명</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 홍길동" />
+            </div>
+          </div>
+
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">시험 담당자</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 홍길동" />
+            </div>
+          </div>
+
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">시험 승인자</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 홍길동" />
+            </div>
+          </div>
+        </div>
+        <!-- Design & Developer Team Name -->
+        <div class="startmeeting__content">
+          <h3 class="startmeeting__content-title">Develop & Design Team</h3>
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">설계 조직명</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 개발팀" />
+            </div>
+          </div>
+
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">설계 담당자</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 고길동" />
+            </div>
+          </div>
+
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">설계 승인자</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 정우성" />
+            </div>
+          </div>
+        </div>
+        <!-- Finial Approver -->
+        <div class="startmeeting__content">
+          <h3 class="startmeeting__content-title">Finial Approver</h3>
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">최종 승인 조직명</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: VS HW품질보증팀" />
+            </div>
+          </div>
+
+          <div class="startmeeting__card-contents">
+            <h3 class="startmeeting__card-item-title">최종 승인 담당자</h3>
+            <div class="startmeeting__card-content">
+              <input type="text" class="startmeeting__card-input" placeholder="Ex: 정우성 " />
+            </div>
+          </div>
+        </div>
+        <div class="register__button-area profile__button">
+          <div class="register__button">
+            <button class="btn btn-red">SAVE</button>
+            <button class="btn btn-dark">Cancel</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Main Javascript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

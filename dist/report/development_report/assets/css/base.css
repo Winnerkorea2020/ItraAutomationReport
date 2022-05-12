@@ -1,0 +1,205 @@
+@import "reset.css";
+
+*::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "HKMCFontL";
+  src: url(../font/hkmc_l.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HKMCFontB";
+  src: url(../font/hkmc_b.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "HKMCFontM";
+  src: url(../font/hkmc_m.ttf) format("truetype");
+}
+
+* {
+  font-family: "HKMCFontL";
+}
+
+body {
+  font-family: "HKMCfont";
+  background: rgb(204, 204, 204);
+}
+
+table {
+  width: 2.6cm;
+  border-right: 1pt solid black;
+  border-left: 1pt solid black;
+  border-collapse: collapse;
+}
+td {
+  vertical-align: middle;
+  border-bottom: 1pt solid black;
+}
+.table_bottom {
+  width: 50%;
+  border-bottom: none;
+}
+
+.tb-b-left {
+  border-right: 1pt solid black;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+.page__main-body {
+  padding: 1cm;
+}
+.page__main-border {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1pt solid black;
+  height: 27.7cm;
+}
+
+/* ============ Top  ============  */
+
+.page-top {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 2.8cm;
+  border-bottom: 1pt solid black;
+}
+
+.hkmc-logo__title {
+  width: 3.6cm;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "HKMCFontM";
+  border-right: 1pt solid black;
+}
+.hkmc-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.25cm;
+  margin-bottom: auto;
+}
+
+.hkmc__logo-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 85%;
+  align-self: center;
+}
+.hkmc__spec-name {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 13px;
+  padding: 0.4cm 0.25cm;
+  line-height: 13px;
+  border-bottom: 1pt solid black;
+}
+
+.hkmc__test-name {
+  width: 8.8cm;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "HKMCFontB";
+  text-align: center;
+}
+
+.test-main-title {
+  font-size: 24pt;
+}
+
+.test-sub-title {
+  font-size: 10.5pt;
+}
+
+.hkmc__test-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  text-align: center;
+  font-family: "HKMCFontB";
+  font-size: 10pt;
+  border-left: 1pt solid black;
+  border-right: 1pt solid black;
+}
+
+.test-info__table {
+  font-size: 10pt;
+  font-family: "HKMCFontB";
+  text-align: center;
+  height: 100%;
+}
+
+.lg-logo {
+  display: flex;
+  justify-content: center;
+  width: 4cm;
+}
+
+.lg__logo {
+  align-self: center;
+  height: 1.5cm;
+}
+
+/* ============ Main  ============  */
+.main__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.3cm;
+  text-align: center;
+  font-size: 24pt;
+  font-family: "HKMCfontB";
+  padding: 0.13cm 0.25cm;
+  vertical-align: middle;
+  border-bottom: 1pt solid black;
+}
+
+/* ============ A4 Size ============ */
+
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="landscape"] {
+  width: 42cm;
+  height: 29.7cm;
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="landscape"] {
+  width: 21cm;
+  height: 14.8cm;
+}
+@media print {
+  body,
+  page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}

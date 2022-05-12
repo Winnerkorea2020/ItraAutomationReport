@@ -1,0 +1,60 @@
+/* TEST Result Information  */
+.test__result {
+  background-color: #ffff;
+  font-size: var(--normal-font-size);
+  box-shadow: var(--box-shadowing);
+  border-radius: 5px;
+  padding: var(--base-padding);
+  margin-bottom: var(--base-padding);
+}
+.test__result-infomation {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.test__result-leg-name {
+  text-align: end;
+  font-weight: 600;
+}
+
+.test__result-leg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test__result-text {
+  padding: 0;
+  margin-left: 10px;
+  font-size: var(--smaller-font-size);
+  text-align: end;
+}
+
+/* TEST Result Input Data */
+.test__result-leg__period-table {
+  box-shadow: none;
+}
+.test__result-leg__period-table tbody th {
+  background-color: var(--title-color);
+  color: #ffff;
+}
+.test__result-leg-contents {
+  box-shadow: none;
+}
+.test__result-leg__pvintermittent-data th,
+.test__result-leg__pvintermittent-data td {
+  font-size: 10px;
+}
+
+.test__result-comments-input {
+  width: 100%;
+  margin: 0;
+  border: none;
+  padding: 0 var(--base-padding);
+}
+
+.test__result-comments-input:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,108 @@
+.test__result-photo {
+  width: 100%;
+  border: none;
+  font-size: 11pt;
+  font-family: "HKMCFontM";
+  text-align: center;
+}
+
+.test__result-photo th {
+  background-color: rgb(204, 204, 204);
+}
+
+.test__result-photo thead th {
+  vertical-align: middle;
+  height: 0.75cm;
+}
+
+.test__result-photo thead tr th {
+  border-top: none;
+  border: 1pt solid black;
+}
+
+.test__result-photo thead th:first-child {
+  border-top: none;
+  border-left: none;
+}
+
+.test__result-photo thead th:last-child {
+  border-right: none;
+  border-top: none;
+}
+
+.test__result-photo tbody th {
+  vertical-align: middle;
+  border: 1pt solid black;
+}
+
+.test__result-photo tbody th:first-child {
+  border-left: none;
+}
+.test__result-photo tbody tr {
+  vertical-align: middle;
+  height: 3.7cm;
+}
+
+.test__result-photo tbody tr td {
+  border-right: 1pt solid black;
+  border-left: 1pt solid black;
+}
+
+.test__result-photo tbody tr:last-child {
+  height: 2.4cm;
+}
+
+.test__result-photo tbody tr td:last-child {
+  border-right: none;
+}
+
+/* ============ cluster-test__result-photo ============= */
+.cluster-test__result-photo {
+  width: 100%;
+  text-align: center;
+
+  border-width: 0 0 0 0;
+}
+.cluster-test__result-photo th {
+  background-color: rgb(204, 204, 204);
+  border-bottom: 1pt solid black;
+
+  font-size: 10pt;
+  padding: 0.13cm 0.25cm;
+  vertical-align: middle;
+}
+
+.cluster-test__result-photo thead th {
+  height: 0.6cm;
+  font-size: 11pt;
+  border-right: 1pt solid black;
+}
+
+.cluster-test__result-photo thead tr th:first-child {
+  width: 3.5cm;
+}
+
+.cluster-test__result-photo thead th:last-child {
+  border-right: none;
+}
+
+.cluster-test__result-photo tbody th {
+  height: 1.054cm;
+}
+
+.cluster-test__result-photo tbody td {
+  border-left: 1pt solid black;
+}
+
+.cluster-test__result-photo
+  tbody
+  th:last-child
+  .cluster-test__result-photo
+  tbody
+  td:last-child {
+  border-bottom: none;
+}
+
+.cluster-test__result-photo_jig tbody th {
+  height: 3.2cm;
+}

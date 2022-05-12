@@ -1,0 +1,267 @@
+.test__leg-contents {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "HKMCFontM";
+  border: none;
+}
+
+.test__leg-contents th,
+.test__leg-contents td {
+  vertical-align: middle;
+  height: 0.75cm;
+  font-size: 10pt;
+}
+
+.test__leg-contentsname {
+  width: 2.5cm;
+}
+.test__leg-contents td {
+  width: 4cm;
+}
+
+.test__leg-contents th {
+  border-right: 1pt solid black;
+  border-bottom: 1pt solid black;
+
+  background-color: #bbbbbb;
+}
+
+.test__leg-contents tr .test_period-start {
+  border-right: 1pt solid black;
+}
+
+.test-leg__carmodel,
+.test-leg__testconent,
+.test-leg__reportpublishnumber,
+.test-leg__testsetting,
+.test-leg__event,
+.test-leg__carmodel {
+  border-left: 1pt solid black;
+}
+.test_event-dv {
+  border-right: 1pt solid black;
+}
+/* 시험방법 */
+.test-method {
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+  border: none;
+}
+
+.test-method__contents {
+  text-align: start;
+  padding: 0 0.85rem;
+}
+
+.test-method th {
+  width: 1.2cm;
+  height: 1.3cm;
+  vertical-align: middle;
+  background-color: #bbbbbb;
+  border: 1pt solid black;
+  border-width: 0 1pt 1pt 0;
+}
+.test-method tbody tr th {
+  width: 1.2cm;
+  font-size: 9pt;
+}
+
+/* 시험결과 */
+.test__results {
+  border: none;
+  width: 100%;
+  height: 10.5cm;
+  text-align: center;
+}
+.test__results th {
+  border: 1pt solid black;
+  border-width: 0 1pt 1pt 0;
+  font-size: 10pt;
+  vertical-align: middle;
+  background-color: #bbbbbb;
+  width: 1.2cm;
+  font-family: "HKMCFontL";
+}
+
+.test__results th:last-child {
+  border-right: none;
+}
+
+.test__results td {
+  margin: 0;
+  padding: 0;
+  font-size: 7.5pt;
+}
+
+/* 시험결과 값 */
+.test-legs {
+  margin-left: 0.2cm;
+  width: 17.4cm;
+  height: 10.3cm;
+  border: none;
+  text-align: center;
+  border-top: 1pt solid black;
+}
+
+/* 시험 결과 Input 값 */
+.test_legs input[type="file"] {
+  font-size: 5px;
+  width: 2.5cm;
+  padding: 0;
+  margin: 0;
+}
+
+.test-legs tbody tr th {
+  border-right: 1pt solid black;
+}
+
+.test-legs td {
+  border-right: 1pt solid black;
+}
+
+.test-legs td:last-child {
+  border-right: none;
+}
+
+/* ================= ADD Cluster =================== */
+.cluster-test-method {
+  height: 8.9cm;
+}
+.cluster-test-results {
+  height: 2.9cm;
+}
+
+.cluster-test-method li {
+  list-style: inside;
+  list-style-type: decimal;
+  padding: 0.13rem 0.85rem;
+  text-align: start;
+  font-size: 12pt;
+}
+.cluster-test-method li li {
+  list-style: inside;
+  list-style-type: square;
+}
+
+.cluster-test-method li li li {
+  list-style-type: lower-alpha;
+}
+
+/* ================= Cluster Test Result  ================= */
+.cluster-leg-result,
+.cluster-test__result-photo {
+  height: 23.2cm;
+  border: none;
+}
+
+.cluster-test__result-photo tbody td {
+  height: 33%;
+}
+
+.cluster-leg-result thead th {
+  height: 1.2cm;
+}
+.cluster-leg-result td {
+  border-right: 1pt solid black;
+}
+
+.cluster-leg-result th:last-child,
+.cluster-leg-result td:last-child {
+  border-right: none;
+}
+
+.cluster-leg_0-img {
+  width: 7.5cm;
+}
+.cluster-leg-0-photo tbody td {
+  height: 20%;
+}
+
+.cluster-test__result-photo_jig td {
+  border-left: 1pt solid black;
+}
+
+.cluster-test__result-photo_jig tbody tr td {
+  height: 25%;
+}
+
+/* ================= Test Sample Status  ================= */
+
+.test__sample-staus {
+  width: 100%;
+  text-align: center;
+  border: none;
+  font-size: 9pt;
+}
+
+.test__sample-staus td {
+  width: 3cm;
+  height: 0.4cm;
+  font-size: 10pt;
+  border-right: 1pt solid black;
+}
+
+.test__sample-staus td:last-child {
+  border-right: none;
+}
+
+/* ================= Test Sample Approve  ================= */
+
+.test__legs-approve {
+  width: 100%;
+  height: 1cm;
+  text-align: center;
+  border: none;
+  font-size: 9pt;
+}
+
+.test__legs-approve th {
+  background-color: #bbbbbb;
+}
+
+.test__legs-approve th,
+.test__legs-approve td {
+  font-size: 11pt;
+  vertical-align: middle;
+  border: 1pt solid black;
+  border-width: 0 1pt 1pt 0;
+}
+.test__legs-approve .leg-approve__dqa-team {
+  padding: 0 0.13cm;
+  width: 1.2cm;
+}
+
+.test__legs-approve .leg-approve__dqa {
+  font-size: 10pt;
+}
+
+.test__legs-approve td {
+  height: 0.6cm;
+}
+
+.test__legs-approve td:last-child {
+  border-right: none;
+}
+
+/* ================ LEG Content Bottom ================ */
+
+.leg__bottom {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.leg__bottom-text {
+  font-size: 11pt;
+  font-family: "HKMCFontM";
+  text-align: center;
+}
+.bottom__date {
+  font-size: 12pt;
+}
+
+.bottom__text {
+  padding: 0.13cm 0.25cm;
+}

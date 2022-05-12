@@ -1,0 +1,58 @@
+/*========== VARIABLES CSS ==========*/
+:root {
+  --header-height: 3.5rem;
+  --nav-width: 219px;
+
+  /*========== Colors ==========*/
+  --first-color: #6923d0;
+  --first-color-light: #f4f0fa;
+  --second-color: #2b8a3e;
+  --second-color-light: #a9f3ca;
+  --title-color: #19181b;
+  --text-color: #58555e;
+  --text-color-light: #a5a1aa;
+  --body-color: #f9f6fd;
+  --container-color: #ffffff;
+  --lgred-button-color: #aa1239;
+
+  /*========== button color ========== */
+
+  --lgreport-button-color: #ffd523;
+  --hkmcreport-button-color: #f08a5d;
+  --statereport-button-color: #b83b5e;
+  --delete-button-color: #6a2c70;
+  --lg-initial-photo__button: #185adb;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.75rem;
+  --smaller-font-size: 0.75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-fixed: 100;
+
+  /* =========== shadow box =========== */
+
+  --box-shadowing: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  /* =========== Border Radius =========== */
+
+  --border-radius: 10px;
+
+  /* ============ padding ============*/
+  --title-padding: 0.85rem;
+  --base-padding: 0.85rem;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}

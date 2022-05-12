@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>ITRA - HOME</title>
+  </head>
+
+  <body class="pt-16 pb-12 bg-gray-100">
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header__container">
+        <img src="assets/img/avata/business_woman.jpg" alt="" class="header__img" />
+
+        <a href="home.html" class="header__logo">LG Electronics : In-vehicle Infortainment</a>
+
+        <div class="header__toggle">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Side Nav Bar -->
+    <div class="nav" id="navbar">
+      <nav class="nav__container">
+        <div>
+          <a href="#" class="nav__link nav__logo">
+            <i class="bx bxs-analyse nav__icon"></i>
+            <span class="nav__logo-name">ITRA</span>
+          </a>
+
+          <!-- Side Navbar -->
+          <div class="nav__list">
+            <div class="nav__items">
+              <!-- HOME -->
+              <h3 class="nav__subtitle">HOME</h3>
+
+              <a href="home.html" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+
+              <!-- HOME -->
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bxs-book-add nav__icon"></i>
+                  <span class="nav__name">Start Meeting</span>
+
+                  <div class="nav__dropdown-collapse">
+                    <div class="nav__dropdown-content">
+                      <a href="startmeeting_1_basic-avn.html" class="nav__dropdown-item">AVN</a>
+                      <a href="startmeeting_1_basic-cluster.html" class="nav__dropdown-item">Cluster</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Profile -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-folder-open nav__icon"></i>
+                  <span class="nav__name">Project</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="project_running.html" class="nav__dropdown-item">Running</a>
+                    <a href="project_complete.html" class="nav__dropdown-item">Complete</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Templates -->
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-category nav__icon"></i>
+                  <span class="nav__name">Templates</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="template_report.html" class="nav__dropdown-item">Report</a>
+                    <a href="template_avn.html" class="nav__dropdown-item">AVN</a>
+                    <a href="template_cluster.html" class="nav__dropdown-item">Cluster</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="notice.html" class="nav__link">
+                <i class="bx bx-bell nav__icon"></i>
+                <span class="nav__name">Notification</span>
+              </a>
+            </div>
+
+            <div class="nav__items">
+              <h3 class="nav__subtitle">Menu</h3>
+
+              <div class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-link-external nav__icon"></i>
+                  <span class="nav__name">Links</span>
+                  <i class="bx bx-chevron-down nav__icon nav__dropdown-icon"></i>
+                </a>
+
+                <div class="nav__dropdown-collapse">
+                  <div class="nav__dropdown-content">
+                    <a href="http://collab.lge.com/main/" class="nav__dropdown-item" target="_blank">Collab</a>
+                    <a href="http://share.lge.com/sites/vc/vssmartqahw1/DocLib/Forms/AllItems.aspx" target="_blank" class="nav__dropdown-item"
+                      >Share Point</a
+                    >
+                    <a href="http://dqms.lge.com:5909/CoMain.jsp" target="_blank" class="nav__dropdown-item">DQMS</a>
+                    <a href="http://vcgpdm.lge.com/lge-gpdm-vc/index.html" target="_blank" class="nav__dropdown-item">GPDM</a>
+                    <a href="http://dgms.lge.com:5910/Main.jsp" target="_blank" class="nav__dropdown-item">DGMS</a>
+                    <a href="http://newep.lge.com/" target="_blank" class="nav__dropdown-item">EP-Mail</a>
+                    <a href="http://vclms.lge.com/Account/Login?ReturnUrl=%2f" target="_blank" class="nav__dropdown-item">LMS</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="membership.html" class="nav__link">
+                <i class="bx bxs-user-account nav__icon"></i>
+                <span class="nav__name">Membership</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="nav__link nav__logout">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log Out</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Contents -->
+    <main>
+      <!-- Tabale Notice -->
+
+      <section class="container mx-auto px-2">
+        <div class="overflow-x-auto mt-12">
+          <h3 class="text-black">사용자관리</h3>
+          <div class="pt-2 pb-5 flex items-center gap-2">
+            <label for="table-search" class="sr-only">Search</label>
+            <div class="relative mt-1">
+              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+              <input
+                type="text"
+                id="table-search"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Search for items"
+              />
+            </div>
+            <div class="btn btn-purple p-2.5">Search</div>
+          </div>
+          <div class="bg-white">
+            <table class="table-theme-6">
+              <thead>
+                <tr>
+                  <th scope="col">NO</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">E-mail</th>
+                  <th scope="col">R&R</th>
+                  <th scope="col">Password</th>
+                  <th scope="col">Delete</th>
+                  <th scope="col">Remark</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">13</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">14</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">15</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">16</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">17</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">18</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">19</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">20</th>
+                  <td>홍길동</td>
+                  <td>hongildong@lge.com</td>
+                  <td>
+                    <select class="border rounded-md" name="" id="">
+                      <option value="">Tester</option>
+                      <option value="">LG Staff</option>
+                      <option value="">Tester PM</option>
+                      <option value="">SupperAdmin</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button class="btn btn-blue">Password Reset</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-red">User Delete</button>
+                  </td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Pagination -->
+            <div class="py-5">
+              <ul class="flex items-center justify-center gap-5 text-black">
+                <li>
+                  <a href="">이전</a>
+                </li>
+
+                <li>
+                  <select name="" id="" class="border px-2 text-center">
+                    <option value="">1</option>
+                  </select>
+                </li>
+                <li>
+                  <a href="">다음</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Notice -->
+      <!-- Check List -->
+    </main>
+
+    <!-- Main Javascript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

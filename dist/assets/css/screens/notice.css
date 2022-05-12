@@ -1,0 +1,70 @@
+@import "assets/css/variables.css";
+/* Main  */
+
+.section {
+  margin-top: 0.85rem;
+}
+
+.bd-container {
+  display: grid;
+}
+
+.link {
+  column-gap: 0.85rem;
+}
+
+.link__content {
+  padding: 1rem;
+  background-color: var(--container-color);
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.link-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--title-color);
+}
+
+.link-icon {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.link__title {
+  font-size: var(--small-font-size);
+  text-align: center;
+}
+
+/* Media Queries */
+/* 
+@media screen and (min-width: 576px) {
+  .main-table {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main-table {
+    display: grid;
+  }
+}
+@media screen and (min-width: 1020px) {
+  main {
+    width: 960px;
+    margin: auto;
+  }
+  .link {
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 0.85rem;
+  }
+  td,
+  th {
+    font-size: var(--small-font-size);
+  }
+} */
