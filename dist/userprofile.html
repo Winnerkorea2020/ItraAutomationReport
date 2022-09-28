@@ -14,10 +14,12 @@
 
     <link rel="stylesheet" href="assets/css/base.css" />
 
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
     <title>ITRA - NOTICE</title>
   </head>
 
-  <body>
+  <body class="main__body">
     <!-- Header -->
 
     <header class="header">
@@ -168,29 +170,63 @@
 
     <!-- Contents -->
     <main>
-      <section class="container mx-auto">
+      <section class="section">
         <div class="mt-12">
-          <form action="">
+          <form action="" class="profile__wrap">
+            <h2 class="profile__title--text">User Information</h2>
             <div class="profile__user">
-              <div class="profile__user--items">
-                <div class="profile__user--name-label">사용자 이름</div>
-                <div class="profile__user--name">홍길동</div>
+              <div class="profile__items">
+                <div class="profile__items--label">User Name</div>
+                <div class="profile__items--content">홍길동</div>
               </div>
-              <div class="profile__user--items">
-                <div class="profile__user--email-label">사용자 Email</div>
-                <div class="profile__user--email">HongKillDong@lge.com</div>
+              <div class="profile__items">
+                <div class="profile__items--label">User Email Address</div>
+                <div class="profile__items--content">HongKillDong@lge.com</div>
+              </div>
+              <div class="profile__items">
+                <div class="profile__items--label">User Authority</div>
+                <div class="profile__items--content">Super Admin</div>
               </div>
             </div>
 
             <div class="profile__password">
-              <div class="profile__password--items">
-                <div class="profile__password--name-label">사용자 이름</div>
-                <div class="profile__password--name">홍길동</div>
+              <div class="profile__password--descrition">
+                <h2 class="profile__title--text profile__password--title">
+                  비밀번호 변경
+                </h2>
+                <p class="profile__password--rule">
+                  최소8글자 이상 특수문자/영문자/숫자포함
+                </p>
               </div>
-              <div class="profile__password--items">
-                <div class="profile__password--email-label">사용자 Email</div>
-                <div class="profile__password--email">HongKillDong@lge.com</div>
+
+              <div class="profile__items">
+                <div class="profile__items--label">사용자 비밀번호</div>
+                <input
+                  class="profile__items--content profile__inputbox"
+                  type="password"
+                  minlength="8"
+                />
               </div>
+              <div class="profile__items">
+                <div class="profile__items--label">비밀번호 확인</div>
+                <input
+                  class="profile__items--content profile__inputbox"
+                  type="password"
+                  minlength="8"
+                />
+              </div>
+            </div>
+            <div class="profile__submit--buttons">
+              <input
+                type="submit"
+                class="profile__button btn btn-blue"
+                value="submit"
+              />
+              <input
+                type="submit"
+                class="profile__button btn btn-red"
+                value="cancel"
+              />
             </div>
           </form>
         </div>

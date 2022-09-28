@@ -1743,6 +1743,91 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3rem;
 }
 
+.profile__wrap {
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 2.5rem;
+}
+
+.profile__title--text {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+.profile__user, .profile__password {
+  letter-spacing: -0.05em;
+}
+
+.profile__items {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.profile__items--label {
+  grid-column: span 6 / span 6;
+  display: inline-flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  border-width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: right;
+}
+
+.profile__items--content {
+  grid-column: span 6 / span 6;
+  display: inline-flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  border-width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: right;
+  font-weight: 600;
+}
+
+.profile__password--title {
+  margin-top: 0.5rem;
+}
+
+.profile__password--rule {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.profile__inputbox {
+  display: inline-block;
+}
+
+.profile__submit--buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.profile__button {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2002,8 +2087,3 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 }
-
-
-
-
-

@@ -14,12 +14,49 @@
 /* Test Photo Result */
 @import "./components/test-photo.css";
 
-
-.main__body{
-    @apply pt-16 pb-12 bg-gray-100
+.main__body {
+  @apply pt-16 pb-12 bg-gray-100;
 }
 
+.profile__wrap {
+  @apply bg-white p-10 w-full;
+}
 
+.profile__title--text {
+  @apply text-xl tracking-tighter font-semibold py-2;
+}
 
+.profile__user,
+.profile__password {
+  @apply tracking-tighter;
+}
 
+.profile__items {
+  @apply grid grid-cols-12;
+}
+.profile__items--label {
+  @apply col-span-6 bg-gray-300 text-right inline-flex items-center justify-end px-12  h-8  border;
+}
+.profile__items--content {
+  @apply col-span-6 bg-white text-right inline-flex items-center justify-end px-12  h-8 font-semibold border;
+}
 
+.profile__password--title {
+  @apply mt-2;
+}
+
+.profile__password--rule {
+  @apply text-base tracking-tighter text-red-500 font-semibold;
+}
+
+.profile__inputbox {
+  @apply inline-block;
+}
+
+.profile__submit--buttons {
+  @apply flex justify-end items-center gap-2;
+}
+
+.profile__button {
+  @apply py-2.5 px-3;
+}
