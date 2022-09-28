@@ -1,4 +1,8 @@
 /* ==================== User Profile ==================== */
+.profile {
+  margin-top: 5rem;
+}
+
 .profile__card-user {
   display: flex;
   position: relative;
