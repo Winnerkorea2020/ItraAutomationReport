@@ -5,6 +5,7 @@
 @import "tailwindcss/utilities";
 
 /* components.css */
+@import "./components/section.css";
 
 @import "./components/table.css";
 
@@ -12,3 +13,13 @@
 
 /* Test Photo Result */
 @import "./components/test-photo.css";
+
+
+.main__body{
+    @apply pt-16 pb-12 bg-gray-100
+}
+
+
+
+
+

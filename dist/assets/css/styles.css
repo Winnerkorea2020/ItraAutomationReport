@@ -1145,6 +1145,45 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 /* components.css */
 
+.section {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .section {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .section {
+    max-width: 1536px;
+  }
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Components */
 
 /* table */
@@ -1697,6 +1736,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 /* Test Photo Result */
 
+.main__body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -1956,3 +2002,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 }
+
+
+
+
+
