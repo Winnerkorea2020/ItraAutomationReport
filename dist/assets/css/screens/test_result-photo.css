@@ -18,12 +18,12 @@
 }
 
 .drag-area img {
-  width: 4.5cm;
-  height: 3.5cm;
+  width: calc(4.5 * 2cm);
+  height: calc(3.5 * 2cm);
 }
 
 .text-avn__result-photo {
-  width: 4.5cm;
-  height: 3.5cm;
+  width: calc(4.5 * 2cm);
+  height: calc(3.5 * 2cm);
   border: 1px solid #3333;
 }

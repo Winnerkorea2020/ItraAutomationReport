@@ -105,6 +105,14 @@
   @apply min-w-full text-xs;
 }
 
+.table-theme-6 tbody td input {
+  @apply w-full px-5 py-1;
+}
+
+.table-theme-6 tbody th input {
+  @apply w-full px-1 py-1;
+}
+
 .table-theme-6 thead {
   @apply bg-gray-800 text-xs;
 }
@@ -124,6 +132,35 @@
 .table-theme-6 tbody tr td {
   @apply py-4 px-6 text-sm font-medium text-green-900 whitespace-nowrap;
 }
+
+.table-theme-7 {
+  @apply min-w-full text-xs;
+}
+
+.table-theme-7 input[type="text"] {
+  @apply w-6 h-6 text-center text-xs py-1;
+}
+
+.table-theme-7 thead {
+  @apply bg-gray-800 text-xs;
+}
+
+.table-theme-7 th {
+  @apply py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase truncate;
+}
+
+.table-theme-7 tbody tr th {
+  @apply text-black truncate;
+}
+
+.table-theme-7 tbody tr {
+  @apply bg-white border-b;
+}
+
+.table-theme-7 tbody tr td {
+  @apply py-4 px-6 text-sm font-medium text-green-900 whitespace-nowrap;
+}
+
 /* Table Small */
 .table-small {
   @apply min-w-full text-xs;
