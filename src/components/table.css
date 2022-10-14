@@ -102,19 +102,19 @@
 }
 
 .table-theme-6 {
-  @apply min-w-full text-xs;
+  @apply min-w-full text-xs truncate table-fixed w-full;
 }
 
 .table-theme-6 tbody td input {
-  @apply w-full px-5 py-1;
+  @apply w-full px-5 py-1 truncate;
 }
 
 .table-theme-6 tbody th input {
-  @apply w-full px-1 py-1;
+  @apply w-full px-1 py-1 truncate;
 }
 
 .table-theme-6 thead {
-  @apply bg-gray-800 text-xs;
+  @apply bg-gray-800 text-xs truncate;
 }
 
 .table-theme-6 th {
@@ -126,11 +126,15 @@
 }
 
 .table-theme-6 tbody tr {
-  @apply bg-white border-b;
+  @apply bg-white border-b truncate;
+}
+
+.table-theme-6 tbody tr th {
+  @apply truncate;
 }
 
 .table-theme-6 tbody tr td {
-  @apply py-4 px-6 text-sm font-medium text-green-900 whitespace-nowrap;
+  @apply py-4 px-6 text-sm  font-medium text-green-900  truncate;
 }
 
 .table-theme-7 {
