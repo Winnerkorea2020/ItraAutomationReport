@@ -63,3 +63,17 @@
 .test__result-initial-photo tbody td:last-child {
   border-right: none;
 }
+
+.test__initial__photo-img {
+  width: 3.2cm;
+}
+
+.test__initial--img--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test__initial--img--container img {
+  background-size: cover;
+}
