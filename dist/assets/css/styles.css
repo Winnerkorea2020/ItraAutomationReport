@@ -566,26 +566,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.-bottom-10 {
-  bottom: -2.5rem;
-}
-
-.-top-5 {
-  top: -1.25rem;
-}
-
-.-bottom-5 {
-  bottom: -1.25rem;
-}
-
 .-bottom-8 {
   bottom: -2rem;
 }
@@ -694,10 +674,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[750px\] {
   height: 750px;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-full {
@@ -941,9 +917,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
-.bg-red-400 {
+.bg-red-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-green-100 {
@@ -960,27 +941,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.bg-orange-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-contain {
@@ -1083,14 +1045,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0px;
 }
 
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .py-0\.5 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .pt-6 {
@@ -1664,12 +1626,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
-.table-theme-7 input[type="text"] {
+.table-theme-7 input {
   height: 1.5rem;
-  width: 1.5rem;
+  width: 100%;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  text-align: center;
+  text-align: left;
   font-size: 0.75rem;
   line-height: 1rem;
 }

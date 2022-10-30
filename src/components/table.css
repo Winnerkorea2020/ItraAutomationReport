@@ -141,8 +141,8 @@
   @apply min-w-full text-xs;
 }
 
-.table-theme-7 input[type="text"] {
-  @apply w-6 h-6 text-center text-xs py-1;
+.table-theme-7 input {
+  @apply w-full h-6 text-left text-xs py-1;
 }
 
 .table-theme-7 thead {
