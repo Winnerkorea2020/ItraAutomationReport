@@ -1,0 +1,12 @@
+@import "base.css";
+
+/* ============ Report Page ============ */
+
+@import "screens/avn_report_title.css";
+@import "screens/avn_report_content.css";
+@import "screens/avn_report_inner.css";
+
+@import "screens/avn_report_test_legs.css";
+@import "screens/avn_report_test_result_photo.css";
+@import "screens/avn_report_test_initial_photo.css";
+@import "screens/avn_report_content_version_hw_sw.css";
