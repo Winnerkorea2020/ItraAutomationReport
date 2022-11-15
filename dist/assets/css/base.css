@@ -1,16 +1,16 @@
 /*========== GOOGLE FONTS ==========*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/* variables CSS */
+@import "variables.css";
+
 /* Components */
-@import "login.css";
+
 @import "./components/header.css";
 @import "./components/navbar.css";
 @import "./components/pagination.css";
 @import "./components/table.css";
 @import "./components/button.css";
-
-/* variables CSS */
-@import "variables.css";
 
 /* Screen CSS */
 
@@ -24,6 +24,7 @@
 @import "./screens/project_complete.css";
 @import "./screens/profile.css";
 @import "./screens/registration.css";
+@import "./screens/login.css";
 
 /* TEST Contents Data */
 

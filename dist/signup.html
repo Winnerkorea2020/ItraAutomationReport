@@ -1,83 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ITRA | In-vehcle infortainmetn Test Report Automation</title>
-    <link rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <!-- Box Icons -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="layer__form">
-        <div class="form">
-            <img src="assets/img/undraw_Create_re_57a3.svg" alt="" class="form__img">
+      <div class="form">
+        <img
+          src="assets/img/undraw_Create_re_57a3.svg"
+          alt=""
+          class="form__img"
+        />
 
-            <form class="form__contents">
-                <img src="" alt="" class="form__user-img">
-                <h1 class="form__title">Sign Up</h1>
-                <p class="form__text">Enter your details to create your account</p>
+        <form class="form__contents">
+          <img src="" alt="" class="form__user-img" />
+          <h1 class="form__title">Sign Up</h1>
+          <p class="form__text">Enter your details to create your account</p>
 
-                <!-- Input Box -- Signup & Registerform -->
-                <!-- Name -->
-                <h3 class="form__label">Name</h3>
-                <div class="form__items form__item-1">
-                    <div class="form__icon">
-                        <i class='bx bx-user-circle'></i>
-                    </div>
-                    <div class="form__item-input">
-                        <input type="text" placeholder="Name" class="form__input" required>
-                    </div>
-                </div>
+          <!-- Input Box -- Signup & Registerform -->
+          <!-- Name -->
+          <h3 class="form__label">Name</h3>
+          <div class="form__items form__item-1">
+            <div class="form__icon">
+              <i class="bx bx-user-circle"></i>
+            </div>
+            <div class="form__item-input">
+              <input
+                type="text"
+                placeholder="Name"
+                class="form__input"
+                required
+              />
+            </div>
+          </div>
 
-                <!-- Email -->
-                <h3 class="form__label">Email Address</h3>
-                <div class="form__items form__item-1">
-                    <div class="form__icon">
-                        <i class='bx bx-mail-send'></i>
-                    </div>
-                    <div class="form__item-input">
-                        <input type="email" placeholder="Email" class="form__input" required>
-                    </div>
-                </div>
-                <!-- Password -->
-                <h3 class="form__label">Password</h3>
-                <p class="password-rule">최소8글자 이상 특수문자/영문자/숫자포함</p>
-                <div class="form__items form__item-1">
-                    <div class="form__icon">
-                        <i class='bx bx-key'></i>
-                    </div>
-                    <div class="form__item-input">
-                        <input type="password" placeholder="Password" class="form__input" required>
-                    </div>
-                </div>
-                <!-- Confirm Password -->
-                <h3 class="form__label">Confirm password</h3>
-                <div class="form__items form__item-1">
-                    <div class="form__icon">
-                        <i class='bx bxs-lock'></i>
-                    </div>
-                    <div class="form__item-input">
-                        <input type="password" placeholder="Confirm password" class="form__input" required>
-                    </div>
+          <!-- Email -->
+          <h3 class="form__label">Email Address</h3>
+          <div class="form__items form__item-1">
+            <div class="form__icon">
+              <i class="bx bx-mail-send"></i>
+            </div>
+            <div class="form__item-input">
+              <input
+                type="email"
+                placeholder="Email"
+                class="form__input"
+                required
+              />
+            </div>
+          </div>
+          <!-- Password -->
+          <h3 class="form__label">Password</h3>
+          <p class="password-rule">최소8글자 이상 특수문자/영문자/숫자포함</p>
+          <div class="form__items form__item-1">
+            <div class="form__icon">
+              <i class="bx bx-key"></i>
+            </div>
+            <div class="form__item-input">
+              <input
+                type="password"
+                placeholder="Password"
+                class="form__input"
+                required
+              />
+            </div>
+          </div>
+          <!-- Confirm Password -->
+          <h3 class="form__label">Confirm password</h3>
+          <div class="form__items form__item-1">
+            <div class="form__icon">
+              <i class="bx bxs-lock"></i>
+            </div>
+            <div class="form__item-input">
+              <input
+                type="password"
+                placeholder="Confirm password"
+                class="form__input"
+                required
+              />
+            </div>
+          </div>
+          <p class="password-rule password-confirm">
+            패스워드를 확인해주시기 바랍니다.
+          </p>
 
-                </div>
-                <p class="password-rule password-confirm">패스워드를 확인해주시기 바랍니다.</p>
-
-                <!-- Submit Button -->
-                <div class="form__item-submit">
-                    <input type="submit" value="SUBMIT" class="form__button">
-                </div>
-                <div class="form__item-submit">
-                    <a href="signin.html" class="form__button cancel">CANCEL</a>
-                </div>
-            </form>
-        </div>
+          <!-- Submit Button -->
+          <div class="form__item-submit">
+            <input type="submit" value="SUBMIT" class="form__button" />
+          </div>
+          <div class="form__item-submit">
+            <a href="signin.html" class="form__button cancel">CANCEL</a>
+          </div>
+        </form>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
